@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script defer src="./script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Hangman Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="start">
+            <button class="start start-btn">Start the game</button>
+        </div>
+        <div class="gameOver">
+            <h3 class="answer">The answer was:</h3>
+            <button class="end-btn">New game</button>
+        </div>
+        <div class="game-board">
+            <h2>Choose a category of words:</h2>
+            <div class="btns-category">
+                    <button class="word-category word-btn1">Animals</button>
+                    <button class="word-category word-btn2">Home</button>
+                    <button class="word-category word-btn3">Clothes</button>
+                    <button class="word-category word-btn4">Food</button>
+                    <button class="word-category word-btn5">Computer</button>
+                    <button class="word-category word-btn6">Transport</button>
+            </div>
+            <div class="letter">
+            </div>
+        </div>
+        <div class="alphabet alphabet-hidden">
+            <div class="letter-vowel">
+            </div>
+            <div class="hangman">
+            </div>
+            <div class="letter-consonant">
+            </div>
+        </div>
+    </div>
+</body>
+    
+</html>
